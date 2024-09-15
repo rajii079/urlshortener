@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:linear-gradient(100deg, rgb(12, 12, 12), rgb(0, 0, 0));
+    font-family: 'Outfit ', sans-serif;
+}
+
+.wrapper{
+    background:linear-gradient(125.68deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    border-radius: 10px;
+    padding: 18px 25px;
+    border:1.5px solid whitesmoke;
+    text-align: center;
+    min-width: 400px;
+}
+.wrapper:hover {
+    background: linear-gradient(125.68deg, rgb(255, 253, 254), rgb(255, 255, 255));
+    transform: scale(1.02); /* Slightly enlarges the box */
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+}
+ label{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: block;
+
+ }
+ input,textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+ }
+input::placeholder{
+    color: black;
+
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+
+}
+button{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: black;
+    padding: 8px;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+button:hover{
+    background-color: rgb(224, 15, 71);
+    color: rgb(247, 242, 242);
+    box-shadow: 0px 1px 1px black;
+
+}
+
+textarea{
+    resize: none;
+}
+textarea:hover {
+    border-color: #000000; /* Changes border color on hover */
+    box-shadow: 20px 4px 30px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
